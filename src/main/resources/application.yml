@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/stock_trade
+    username: root
+    password: Shicong666
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
